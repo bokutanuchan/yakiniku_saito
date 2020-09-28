@@ -2,6 +2,19 @@
 
 @import url(common.css);
 
+@media screen and (min-width:768px){
+/* PC用CSS -------------- */
+.hoge{
+display: none;
+}
+}
+
+@media screen and (max-width:767px){
+/* スマホ用CSS -------------- */
+.hoge{
+display: none;
+}
+}
 
 body{
 background-color: black;

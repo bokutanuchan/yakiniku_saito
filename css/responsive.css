@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+
+header, nav, #graphic, #contents, footer, footer address {
+	width: 100%;
+}
+header h1 img{
+	width: 100%;
+	max-width: 306px;
+}
+nav ul {
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+#graphic {
+	padding-top: 10px;
+}
+#graphic ul li img {
+	width: 100%;
+}
+#main, #news ul li, h2 {
+	width: auto;
+	float: none;
+}
+nav ul li#nav_introduction,
+nav ul li#nav_menu,
+nav ul li#nav_coupon,
+nav ul li#nav_reservation {
+	width: 100%;
+}
+nav ul li#nav_introduction,
+nav ul li#nav_coupon {
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+}
+nav ul li#nav_menu,
+nav ul li#nav_reservation {
+	border: 1px solid black;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+nav ul li#nav_introduction a,
+nav ul li#nav_menu a,
+nav ul li#nav_coupon a,
+nav ul li#nav_reservation a {
+	display: block;
+	height: auto;
+	margin-bottom: 0;
+	padding: 8px 0 8px 0;
+	background: #f9b5f2 none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+nav ul li#nav_introduction a:hover,
+nav ul li#nav_menu a:hover,
+nav ul li#nav_coupon a:hover,
+nav ul li#nav_reservation a:hover {
+	background-color: white;
+}
+#news h2 {
+	margin-bottom: 0;
+}
+#news ul li {
+	padding: 20px 0 12px 0;
+	text-indent: 0;
+}
+#news time {
+	margin-bottom: 10px;
+}
+#sub {
+	width: 100%;
+	max-width: 230px;
+	float: none;
+}
+footer {
+	padding-top: 30px;
+}
+

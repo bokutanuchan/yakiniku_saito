@@ -8,7 +8,7 @@
 <meta property="og:title" content="焼肉店豚専（ぶたせん）" /><!--ページタイトルを20文字程度で-->
 <meta property="og:description" content="焼肉店豚専（ぶたせん）はその名の通り豚肉専門の焼肉店です。豚肉の希少な部位を取り扱い一般店ではめったにないお肉を手頃な金額でお楽しみいただけます。是非ご賞味ください。" /><!--ページ説明文を80～90文字で-->
 <meta property="og:site_name" content="焼肉店豚専（ぶたせん）" /><!--サイト名-->
-<meta property="og:image" content="//bokutanuchan.github.io/yakiniku_saito/images/slide2" /><!--サムネイル画像のURLを絶対パスで-->
+<meta property="og:image" content="//bokutanuchan.github.io/yakiniku_saito/images/slide2" /><!--（1200×630p）サムネイル画像のURLを絶対パスで-->
 <!--OGPここまで-->
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -22,10 +22,25 @@
 </head>
 
 <body>
+
 <header id="top">
+
 <h1>
 <a href="index.html"><img src="images/logo.png" alt="焼肉店豚専（ぶたせん）"></a>
 </h1>
+
+<!--ハンバーガーメニュー-->
+  <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-introduction">お店の紹介</div>
+　　　<div id="nav-menu">メニュー（コース）</div>
+　　　<div id="nav-coupon">地図・クーポン</div>
+　　　<div id="nav-reservation">予約・お問い合わせ</div>
+  </div>
+<!--ハンバーガーメニューはここまで-->
+
 </header>
 
 <nav>
@@ -53,10 +68,10 @@
 <section id="news">
 <h2>お知らせ</h2>
 <ul>
-<li><time datetime="2020-09-25">2020年09月25日</time>デリバリー＆テイクアウト開始しました。</li>
-<li><time datetime="2020-08-03">2020年08月03日</time>ネギ豚こめかみが大好評につき復活しました。</li>
-<li><time datetime="2020-07-20">2020年07月20日</time>コース料理を一新しました。</li>
-<li><time datetime="2020-05-14">2020年05月14日</time>クーポン情報が変更されました。</li>
+<li><time datetime="2020-09-25">2020年09月25日</time><a href="introduction.html">デリバリー＆テイクアウト開始しました。</a></li>
+<li><time datetime="2020-08-03">2020年08月03日</time><a href="introduction.html">ネギ豚こめかみが大好評につき復活しました。</a></li>
+<li><time datetime="2020-07-20">2020年07月20日</time><a href="introduction.html">コース料理を一新しました。</a></li>
+<li><time datetime="2020-05-14">2020年05月14日</time><a href="introduction.html">クーポン情報が変更されました。</a></li>
 </ul>
 </section>
 </div>
@@ -66,7 +81,7 @@
 <div class="bnr_inner">
 <a href="plan.html">
 <dl>
-<dt><img src="images/bnr_plan.jpg" alt="最新情報の発信"></dt>
+<dt><img src="images/bnr_plan.png" alt="最新情報の発信"></dt>
 <dd>随時、最新情報を発信しております。</dd>
 </dl>
 </a>
@@ -85,6 +100,7 @@
 
 <footer>
 <script src="js/slideshow.js"></script>
+<script src="js/menu.js"></script>
 <p id="pagetop"><a href="#top">ページの先頭へ戻る</a></p>
 <address>東京都葛飾区X-X-X 電話 0120-000-XXX 営業時間 16:00～23:00(火曜日定休)</address>
 <p id="copyright"><small>Copyright 2020</small></p>
@@ -92,16 +108,4 @@
 
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
